@@ -13,6 +13,6 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     }
 
     $conn->close();
-    header("Location: index.html");
+    header("Location: index.php");
 }
 ?>
