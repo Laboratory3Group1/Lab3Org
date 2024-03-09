@@ -19,6 +19,15 @@
             <button type="submit">Add Task</button>
         </form>
         
+    <h2>Tasks</h2>
+    <ul>
+        <?php
+
+         include 'display_task.php'; 
+         
+         ?>
+
+    </ul>
 
 </body>
 </html>
