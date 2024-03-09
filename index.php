@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
 
 <body>
-<<<<<<< HEAD:index.php
         <h1>Task Management</h1>
         
         <h2>Add Task</h2>
