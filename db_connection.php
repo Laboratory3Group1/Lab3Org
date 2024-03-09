@@ -1,11 +1,15 @@
 
 <?php
 $host = "localhost";
-$username = "root"; 
-$password = ""; 
-$database = "dbTaskManagement"; 
-$conn = mysqli_connect($host, $username, $password, $database);
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
+$username = "root";
+$password = "";
+$database = "dbTaskManagement";
+
+// Create connection
+$conn = new mysqli($host, $username, $password, $database);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
 ?>
