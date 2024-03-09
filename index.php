@@ -31,22 +31,6 @@
          ?>
 
     </ul>
-=======
-    <h1>Task Management</h1>
-
-    <h2>Add Task</h2>
-    <form action="add_task.php" method="POST">
-        <input type="text" name="task_name" placeholder="Task Name" required>
-        <input type="date" name="task_date" required>
-        <select name="task_status">
-            <option value="Not Done">Not Done</option>
-            <option value="Done">Done</option>
-        </select>
-        <button type="submit">Add Task</button>
-    </form>
-
->>>>>>> a29dd290c267a0e60b113bf6402b707c8b934180:index.html
-
 </body>
 
 </html>
